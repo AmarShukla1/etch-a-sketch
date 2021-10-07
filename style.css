@@ -1,0 +1,22 @@
+
+.container{
+    padding:100px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    font-family: 'Courier New';
+    font-size: larger;
+}
+.reset{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:auto;
+    background-color: aqua;
+    border-radius: 10px;
+    height:32px;
+}
