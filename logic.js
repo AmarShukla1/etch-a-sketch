@@ -17,6 +17,7 @@ function generate(n){
     document.body.appendChild(parent);
     parent.className='container';
     parent.id='box';
+    parent.style.border='inset';
     const block_area=(440*440)/(n*n);
     const block_width=Math.sqrt(block_area);  
 for (let row = 0; row < n; row++) {
